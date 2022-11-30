@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"> </div>
+
+            <div class="card" style="width: 80rem;">
+                <img height ="400" src="https://img.freepik.com/free-photo/digital-circle-circuit-blue-background-futuristic-technology_53876-124643.jpg?w=1060&t=st=1669810290~exp=1669810890~hmac=07b71bd1759716777fdcc4dff2b20cbb8fc8e1f57b4c17a6b39a37031819dc6f"" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Welcome to Admin Page</h1>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title" style="text-align: left;">ADMIN LOGIN</h5>
+                      <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <label for="" class="form-label">Username</label>
+                        <input name="Username" [(ngModel)]="Username" type="text" placeholder="Username" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <label for="" class="form-label">Password</label>
+                        <input name="Password" [(ngModel)]="Password" type="password" id="" placeholder="Password" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                        <br>
+                        <button (click)="readValue()" class="btn btn-dark">Login</button>
+                    </div>
+                    <br>
+                  <div class="text-center small">Are you an employee? <a routerLink="/employee">Click here</a></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
